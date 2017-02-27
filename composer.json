@@ -1,0 +1,30 @@
+{
+  "name": "sohelrana820/php-benchmark",
+  "description": "Micro library for PHP benchmark",
+  "keywords": [
+    "PHP Benchmark",
+    "Micro Benchmark Library",
+    "Benchmark",
+    "Benchmark Library"
+  ],
+  "homepage": "https://github.com/sohelrana820/php-benchmark",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "sohelrana820",
+      "email": "me.sohelrana@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.8.*",
+    "squizlabs/php_codesniffer": "~2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "SohelRana820\\Benchmark\\": "src"
+    }
+  }
+}
